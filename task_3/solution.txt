@@ -1,0 +1,15 @@
+git branch branch4567890
+git checkout branch4567890
+echo "4" > number.txt
+echo "5" >> number.txt
+echo "6" >> number.txt
+echo "7" >> number.txt
+echo "8" >> number.txt
+echo "9" >> number.txt
+echo "0" >> number.txt
+git add "numbers.txt"
+git commit -m "добавим numbers.txt текста в ещё одной ветке"
+git checkout master
+git merge branch1234567
+git merge branch4567890
+после 2 последних команд происходит слияние
