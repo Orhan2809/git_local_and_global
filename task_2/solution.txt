@@ -1,0 +1,12 @@
+git branch branch1234567
+git checkout branch1234567
+echo "1" > number.txt
+echo "2" >> number.txt
+echo "3" >> number.txt
+echo "4" >> number.txt
+echo "5" >> number.txt
+echo "6" >> number.txt
+echo "7" >> number.txt
+git add "numbers.txt"
+git commit -m "добавим numbers.txt текста в другой ветке"
+git checkout master
