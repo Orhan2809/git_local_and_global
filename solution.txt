@@ -1,0 +1,9 @@
+mkdir git_repo_2
+cd git_repo_2
+git init
+echo "4" >> number.txt
+echo "5" >> number.txt
+echo "6" >> number.txt
+echo "7" >> number.txt
+git add "numbers.txt"
+git commit -m "добавим numbers.txt"
