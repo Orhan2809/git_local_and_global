@@ -1,0 +1,18 @@
+cd ~
+mkdir git_lab1_lesson2
+git init
+cd git_lab1_lesson2
+git clone https://github.com/YandexLyceum/human.git .
+git branch -a
+cat human.txt
+git diff origin/boots human.txt
+git diff origin/buttons human.txt
+git diff origin/demo human.txt
+git diff origin/hat human.txt
+git branch boots_buttons
+git checkout boots_buttons
+git merge origin/boots
+# нет не возникли, после слияния ноги у человека становяться длиннее
+git merge origin/buttons
+# нет не возникли, после слияния на груди у человека появляються три нуля
+git checkout master
